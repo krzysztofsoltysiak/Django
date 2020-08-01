@@ -1,5 +1,4 @@
-{% extends "blog/base.html"%}
-
-{% block content%}
-    <h1>Blog about!</h1>
-{% endblock %}
+{% extends "blog/base.html"%} {% load i18n %} {% block content%}
+<h1>{% trans "Blog about!" %}</h1>
+See my portfolio page again.
+<a class="nav-item nav-link" href="{% url 'main-home' %}">Portfolio</a> {% endblock %}
