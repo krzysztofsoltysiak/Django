@@ -1,16 +1,16 @@
-{% extends "blog/base.html"%}
+{% extends "blog/base.html"%}{% load i18n %}
 {% load crispy_forms_tags %}
 {% block content%}
     <div class="content-section">
         <form method="POST">
             {% csrf_token %}
             <fieldset class="form-group">
-                <legend class="border-bottom mb-4">Blog post</legend>
+                <legend class="border-bottom mb-4">{% trans "Blog post</legend>
                 {{ form | crispy }}
             </fieldset>
 
             <div class="form-group">
-                <button class="btn btn-outline-info" type="submit">Post</button>
+                <button class="btn btn-outline-info" type="submit">{% trans "Post" %}</button>
             </div>
         </form>
     </div>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-18 23:46+0200\n"
+"POT-Creation-Date: 2020-09-22 22:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,6 +80,59 @@ msgstr "Kalendarze"
 msgid "etc"
 msgstr "itd"
 
+#: .\blog\templates\blog\home.html:2
+#, fuzzy
+#| msgid "Blog about!"
+msgid "Blog home!"
+msgstr "O blogu"
+
+#: .\blog\templates\blog\home.html:22 .\blog\templates\blog\user_posts.html:24
+msgid "First"
+msgstr "Pierwsza"
+
+#: .\blog\templates\blog\home.html:23 .\blog\templates\blog\user_posts.html:25
+msgid "Previous"
+msgstr "Poprzednia"
+
+#: .\blog\templates\blog\home.html:35 .\blog\templates\blog\user_posts.html:37
+msgid "Next"
+msgstr "Następna"
+
+#: .\blog\templates\blog\home.html:36 .\blog\templates\blog\user_posts.html:38
+msgid "Last"
+msgstr "Ostatnia"
+
+#: .\blog\templates\blog\post_confirm_delete.html:7
+#, fuzzy
+#| msgid "New post"
+msgid "Delete post"
+msgstr "Nowy post"
+
+#: .\blog\templates\blog\post_confirm_delete.html:8
+msgid "Are you sure you want to delete the post"
+msgstr "Czy na pewno chcesz usunąć post"
+
+#: .\blog\templates\blog\post_confirm_delete.html:12
+#: .\blog\templates\blog\post_detail.html:14
+msgid "Delete"
+msgstr "Usuń"
+
+#: .\blog\templates\blog\post_confirm_delete.html:13
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: .\blog\templates\blog\post_detail.html:4
+msgid "Blog post detail!"
+msgstr "Szczegóły posta"
+
+#: .\blog\templates\blog\post_detail.html:13
+msgid "Update"
+msgstr "Aktualizuj"
+
+#: .\blog\templates\blog\post_form.html:13
+msgid "Post"
+msgstr "Post"
+
 #: .\main\templates\main\base.html:69
 msgid "close"
 msgstr "zamknij"
@@ -103,7 +156,11 @@ msgstr "przywitaj się"
 msgid "Love learning and doing IT stuff."
 msgstr "Uwielbiam naukę i zabawę w IT..."
 
-#: .\main\templates\main\home.html:18
+#: .\main\templates\main\home.html:15
+msgid "Experience"
+msgstr ""
+
+#: .\main\templates\main\home.html:69
 msgid "Selected projects"
 msgstr "Wybrane projekty"
 
