@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-22 22:18+0200\n"
+"POT-Creation-Date: 2020-10-06 02:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,19 +86,19 @@ msgstr "itd"
 msgid "Blog home!"
 msgstr "O blogu"
 
-#: .\blog\templates\blog\home.html:22 .\blog\templates\blog\user_posts.html:24
+#: .\blog\templates\blog\home.html:22 .\blog\templates\blog\user_posts.html:23
 msgid "First"
 msgstr "Pierwsza"
 
-#: .\blog\templates\blog\home.html:23 .\blog\templates\blog\user_posts.html:25
+#: .\blog\templates\blog\home.html:23 .\blog\templates\blog\user_posts.html:24
 msgid "Previous"
 msgstr "Poprzednia"
 
-#: .\blog\templates\blog\home.html:35 .\blog\templates\blog\user_posts.html:37
+#: .\blog\templates\blog\home.html:35 .\blog\templates\blog\user_posts.html:36
 msgid "Next"
 msgstr "Następna"
 
-#: .\blog\templates\blog\home.html:36 .\blog\templates\blog\user_posts.html:38
+#: .\blog\templates\blog\home.html:36 .\blog\templates\blog\user_posts.html:37
 msgid "Last"
 msgstr "Ostatnia"
 
@@ -132,37 +132,6 @@ msgstr "Aktualizuj"
 #: .\blog\templates\blog\post_form.html:13
 msgid "Post"
 msgstr "Post"
-
-#: .\main\templates\main\base.html:69
-msgid "close"
-msgstr "zamknij"
-
-#: .\main\templates\main\base.html:90
-msgid ""
-"Anything interesting about you? Got an interesting project? Let me know."
-msgstr ""
-"Masz coś ciekawego do powiedzenia? Pracujesz nad czymś interesującym? Daj mi "
-"znać."
-
-#: .\main\templates\main\base.html:106
-msgid "contact me"
-msgstr "skontaktuj się"
-
-#: .\main\templates\main\base.html:125
-msgid "say hello"
-msgstr "przywitaj się"
-
-#: .\main\templates\main\home.html:5
-msgid "Love learning and doing IT stuff."
-msgstr "Uwielbiam naukę i zabawę w IT..."
-
-#: .\main\templates\main\home.html:15
-msgid "Experience"
-msgstr ""
-
-#: .\main\templates\main\home.html:69
-msgid "Selected projects"
-msgstr "Wybrane projekty"
 
 #~ msgid "TRARNSLATE THIS "
 #~ msgstr "Przetłumacz to"
